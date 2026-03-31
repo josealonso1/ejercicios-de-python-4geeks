@@ -1,0 +1,42 @@
+{
+  "slug": "interview-coding-challenges-python",
+  "duration": 10,
+  "difficulty": "intermediate",
+  "title": {
+    "us": "Interview Coding Challenges in Python",
+    "es": "Desafios de Codigo para Entrevistas en Python"
+  },
+  "description": {
+    "us": "Practice interview-style coding challenges with isolated auto-evaluation and progressive difficulty focused on common technical interview patterns using Python.",
+    "es": "Practica desafios de codigo tipo entrevista con autoevaluacion aislada y dificultad progresiva, enfocados en patrones comunes de entrevistas tecnicas usando Python."
+  },
+  "projectType": "tutorial",
+  "template_url": "self",
+  "autoPlay": true,
+  "technologies": [
+    "python",
+    "algorithms",
+    "data structures",
+    "problem solving",
+    "technical interview"
+  ],
+  "videoSolutions": false,
+  "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+  "graded": true,
+  "grading": "isolated",
+  "localhostOnly": true,
+  "editor": {
+    "version": "5.0",
+    "agent": "vscode",
+    "mode": "extension"
+  },
+  "delivery": {
+    "formats": [
+      "no_delivery"
+    ]
+  },
+  "translations": [
+    "es",
+    "en"
+  ]
+}

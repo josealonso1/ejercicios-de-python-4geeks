@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"name": "Python LearnPack",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-16",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"extensions": ["learn-pack.learnpack-vscode", "ms-python.python", "ms-python.vscode-pylance"]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.11"
+		}
+	},
+	"onCreateCommand": "npm i @learnpack/learnpack@5.0.29 -g && learnpack plugins:install @learnpack/python@1.0.0 && python3 -m pip install --upgrade pip && python3 -m pip install -r requirements.txt"
+}
