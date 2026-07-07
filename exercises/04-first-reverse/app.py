@@ -1,7 +1,5 @@
 def first_reverse(text):
     # TODO: implement string reversal
-    return text
+    return text[::-1]
 
-
-argument = input() if __name__ == "__main__" else ""
-print(first_reverse(argument))
+print(first_reverse(input()))
