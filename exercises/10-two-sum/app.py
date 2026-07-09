@@ -3,6 +3,14 @@ import json
 
 def two_sum(nums, target):
     # TODO: implement and return the indices list
+    historial = {}
+
+    for index, value in enumerate(nums):
+        complemento = target - value
+        if complemento in historial:
+            return [historial[complemento], index]
+        historial[value] = index
+
     return None
 
 
